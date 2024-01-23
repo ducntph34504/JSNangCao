@@ -18,6 +18,7 @@ x = person.name; console.log(x);
 x = person['age']; console.log(x);
 x = person.address.city; console.log(x);
 x = person.hobbies[0]; console.log(x);
+delete person.age; console.log(person);
 
 // Updating properties
 person.name = 'Duc Nguyen';
